@@ -22,7 +22,7 @@
     </head>
     <body>
         <h1>Welcome to the house planner!</h1>
-        <p>To generate your list of bricks for your next lego house, we need to know four things:</p>
+        <p>In order for you to build your house, please enter:</p>
         <table>
             <tbody>
                 <tr>
