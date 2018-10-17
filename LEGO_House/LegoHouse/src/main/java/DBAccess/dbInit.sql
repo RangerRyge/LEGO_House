@@ -4,7 +4,7 @@ USE `useradmin`;
 DROP TABLE IF EXISTS `order`;
 DROP TABLE IF EXISTS `user`;
 
-CREATE TABLE `user` (
+CREATE TABLE `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `email` varchar(90) NOT NULL,
   `password` varchar(45) NOT NULL,
@@ -13,7 +13,7 @@ CREATE TABLE `user` (
   UNIQUE KEY `email_UNIQUE` (`email`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
-CREATE TABLE `order` (
+CREATE TABLE `orders` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `user_id` int(11) NOT NULL,
   `length` int(11) NOT NULL,
