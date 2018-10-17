@@ -16,9 +16,9 @@ CREATE TABLE `user` (
 CREATE TABLE `order` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `user_id` int(11) NOT NULL,
-  `fours` int(11) NOT NULL,
-  `twos` int(11) NOT NULL,
-  `ones` int(11) NOT NULL,
+  `length` int(11) NOT NULL,
+  `width` int(11) NOT NULL,
+  `height` int(11) NOT NULL,
   `shipped` boolean NOT NULL DEFAULT false,
   PRIMARY KEY (`id`),
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;

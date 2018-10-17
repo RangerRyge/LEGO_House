@@ -21,7 +21,7 @@
         %>
     </head>
     <body>
-        <h1>Welcome to the house planner!</h1>
+        <h1>Plan your house!</h1>
         <p>In order for you to build your house, please enter:</p>
         <table>
             <tbody>
